@@ -1,0 +1,442 @@
+[
+  {
+    "Company": "Storable, Inc",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 1207100.592,
+    "NAV": 904392.384,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Gamma Technologies Holdings, LLC",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 443786.9822,
+    "NAV": 1261227.474,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "NetDocuments, Inc.",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 1304733.728,
+    "NAV": 3642178.853,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "LiveAuctioneers, INC",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 426035.503,
+    "NAV": 0.0,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Kalkomey Holdings, LLC",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 701183.432,
+    "NAV": 744431.8263,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Logos",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 621301.7751,
+    "NAV": 510643.3189,
+    "Sector": "Consumer Software "
+  },
+  {
+    "Company": "Caring Holdings, LLC",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 381656.8047,
+    "NAV": 264550.1531,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "Momentus Technologies ",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 1065088.757,
+    "NAV": 929001.7006,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Imprivata, Inc ",
+    "Fund ": "Cove Hill Partners Fund I (Lake)",
+    "Year ": 2018,
+    "Commited ": 1313609.467,
+    "NAV": 2485540.974,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "Fast Growing Trees, LLC",
+    "Fund ": "Cove Hill Partners Feeder Fund II, L.P.",
+    "Year ": 2020,
+    "Commited ": 2814029.364,
+    "NAV": 480951.292,
+    "Sector": "Consumer Software "
+  },
+  {
+    "Company": "Artlogic Holdings, L.P.",
+    "Fund ": "Cove Hill Partners Feeder Fund II, L.P.",
+    "Year ": 2020,
+    "Commited ": 929853.1811,
+    "NAV": 927548.9204,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Otelier ",
+    "Fund ": "Cove Hill Partners Feeder Fund II, L.P.",
+    "Year ": 2020,
+    "Commited ": 2324632.953,
+    "NAV": 1305439.221,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "Encompas, Inc. ",
+    "Fund ": "Cove Hill Partners Feeder Fund II, L.P.",
+    "Year ": 2020,
+    "Commited ": 1517128.874,
+    "NAV": 1288262.389,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Imprivata, Inc.",
+    "Fund ": "Cove Hill Partners Feeder Fund II, L.P.",
+    "Year ": 2020,
+    "Commited ": 2520391.517,
+    "NAV": 2284518.637,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "IncidentIQ, LLC ",
+    "Fund ": "Cove Hill Partners Feeder Fund II, L.P.",
+    "Year ": 2020,
+    "Commited ": 4820554.649,
+    "NAV": 3383835.876,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Storable, Inc",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 1207100.592,
+    "NAV": 904392.384,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Gamma Technologies Holdings, LLC",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 443786.9822,
+    "NAV": 1261227.474,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "NetDocuments, Inc.",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 1304733.728,
+    "NAV": 3642178.853,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "LiveAuctioneers, INC",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 426035.503,
+    "NAV": 0.0,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Kalkomey Holdings, LLC",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 701183.432,
+    "NAV": 744431.8263,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Logos",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 621301.7751,
+    "NAV": 510643.3189,
+    "Sector": "Consumer Software "
+  },
+  {
+    "Company": "Caring Holdings, LLC",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 381656.8047,
+    "NAV": 264550.1531,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "Momentus Technologies ",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 1065088.757,
+    "NAV": 929001.7006,
+    "Sector": "Enterprise Software "
+  },
+  {
+    "Company": "Imprivata, Inc ",
+    "Fund ": "Cove Hill Partners Fund I (Webster)",
+    "Year ": 2018,
+    "Commited ": 1313609.467,
+    "NAV": 2485540.974,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "CPF Living Communities II",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 2439024.39,
+    "NAV": 4072695.252,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "WellBe Senior Medical ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 1097560.976,
+    "NAV": 9700419.601,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Atrio Holding Company ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 585365.8537,
+    "NAV": 2690447.167,
+    "Sector": "Healthcare Insurance "
+  },
+  {
+    "Company": "Impact Advisors Holdings, LLC ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 1170731.707,
+    "NAV": 6540995.406,
+    "Sector": "Healthcare Software"
+  },
+  {
+    "Company": "Trendence Inc. ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 780487.8049,
+    "NAV": 913271.0566,
+    "Sector": "Healthcare Software"
+  },
+  {
+    "Company": "AllymarHelath Solutions LLC",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 1487804.878,
+    "NAV": 1505663.093,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "Novum Health West ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 1048780.488,
+    "NAV": 4442940.275,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Duo Health ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 634146.3415,
+    "NAV": 631884.8392,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Ascend Vision ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 609756.0976,
+    "NAV": 1569838.897,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Novum Health East ",
+    "Fund ": "Chicago Pacific Founders Fund II, L.P.",
+    "Year ": 2019,
+    "Commited ": 170731.7073,
+    "NAV": 175249.3109,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "United Eastern Medical Services",
+    "Fund ": "Pearl Stuart LLC (Olive Rock Partners Fund I, L.P.)",
+    "Year ": 2021,
+    "Commited ": 7668731.677,
+    "NAV": 5139269.029,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "The Dental Studio",
+    "Fund ": "Pearl Stuart LLC (Olive Rock Partners Fund I, L.P.)",
+    "Year ": 2021,
+    "Commited ": 1963943.478,
+    "NAV": 1316154.263,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Al Bustan Medical Centre",
+    "Fund ": "Pearl Stuart LLC (Olive Rock Partners Fund I, L.P.)",
+    "Year ": 2021,
+    "Commited ": 2150985.714,
+    "NAV": 1441502.289,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Leoron Institute",
+    "Fund ": "Pearl Stuart LLC (Olive Rock Partners Fund I, L.P.)",
+    "Year ": 2021,
+    "Commited ": 3366760.248,
+    "NAV": 2256264.452,
+    "Sector": "Enterprise Services "
+  },
+  {
+    "Company": "Trias MD",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 1545346.062,
+    "NAV": 1384419.051,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Qoros Cardiology",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 2631264.916,
+    "NAV": 2575663.351,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "MyCare Medical ",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 2714797.136,
+    "NAV": 2479075.975,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Pieper-Olson veterinary ",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 2881861.575,
+    "NAV": 4571802.448,
+    "Sector": "Veterinary "
+  },
+  {
+    "Company": "OMNY",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 751789.9761,
+    "NAV": 611720.0459,
+    "Sector": "Healthcare Software "
+  },
+  {
+    "Company": "Gold Kidney Health Plan ",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 1294749.403,
+    "NAV": 998069.5485,
+    "Sector": "Healthcare Insurance "
+  },
+  {
+    "Company": "Sage Health ",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 2046539.379,
+    "NAV": 1996139.097,
+    "Sector": "Veterinary "
+  },
+  {
+    "Company": "P3 Health ",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 2965393.795,
+    "NAV": 3122991.813,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Motion SK ",
+    "Fund ": "Chicago Pacific Founders Fund III, L.P.",
+    "Year ": 2022,
+    "Commited ": 668257.7566,
+    "NAV": 515132.6702,
+    "Sector": "Healthcare Facility/Operation"
+  },
+  {
+    "Company": "Engine and Trnsmission Exchange ",
+    "Fund ": "Solamere Series IV Flagship Fund, LP",
+    "Year ": 2023,
+    "Commited ": 2516129.032,
+    "NAV": 689293.2816,
+    "Sector": "Industrials"
+  },
+  {
+    "Company": "ARMStrong ",
+    "Fund ": "Solamere Series IV Flagship Fund, LP",
+    "Year ": 2023,
+    "Commited ": 6290322.581,
+    "NAV": 2067879.845,
+    "Sector": "General Insurance "
+  },
+  {
+    "Company": "Shield AI ",
+    "Fund ": "Solamere Series IV Flagship Fund, LP",
+    "Year ": 2023,
+    "Commited ": 870967.7419,
+    "NAV": 238601.5205,
+    "Sector": "Aerospace and Defense "
+  },
+  {
+    "Company": "Bluegrass ",
+    "Fund ": "Solamere Series IV Flagship Fund, LP",
+    "Year ": 2023,
+    "Commited ": 5225806.452,
+    "NAV": 1431609.123,
+    "Sector": "Food and Beverage "
+  },
+  {
+    "Company": "Insurvia",
+    "Fund ": "BharCap Partners II, LP",
+    "Year ": 2024,
+    "Commited ": 1428571.429,
+    "NAV": 771662.43,
+    "Sector": "General Insurance "
+  },
+  {
+    "Company": "ARMStrong ",
+    "Fund ": "BharCap Partners II, LP",
+    "Year ": 2024,
+    "Commited ": 1360544.218,
+    "NAV": 771662.43,
+    "Sector": "General Insurance "
+  },
+  {
+    "Company": "Modera Wealth Management ",
+    "Fund ": "BharCap Partners II, LP",
+    "Year ": 2024,
+    "Commited ": 1054421.769,
+    "NAV": 561209.04,
+    "Sector": "Financial Services "
+  },
+  {
+    "Company": "Electronic Merchant Systems",
+    "Fund ": "BharCap Partners II, LP",
+    "Year ": 2024,
+    "Commited ": 1156462.585,
+    "NAV": 701511.3,
+    "Sector": "Fintech "
+  }
+]
