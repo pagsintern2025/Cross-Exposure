@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PE Fund Cross Exposure Dashboard</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet"
+        href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"/>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    h1 { text-align: center; }
+    #charts { display: flex; flex-direction: column; gap: 40px; }
+    .chart-box { width: 100%; height: 500px; }
+    table { width: 100%; margin-top: 30px; }
+  </style>
+</head>
+<body>
+
+<h1>Private Equity Fund Cross Exposure Dashboard</h1>
+
+<div id="charts">
+  <div id="sectorExposure" class="chart-box"></div>
+  <div id="companyHeatmap" class="chart-box"></div>
+</div>
+
+<h2>Investment Details Table</h2>
+<table id="dataTable" class="display"></table>
+
+<script>
+// Load JSON data
+fetch('portfolio_data.json')
+  .then(response => response.json())
+  .then(data => {
+    // Bar chart: Fund Exposure by Sector
+    const fundSector = {};
+    data.forEach(row => {
+      const key = row.Fund + '||' + row.Sector;
+      fundSector[key] = (fundSector[key] || 0) + row.NAV;
+    });
+
+    const funds = [...new Set(data.map(d => d.Fund))];
+    const sectors = [...new Set(data.map(d => d.Sector))];
+
+    const traces = sectors.map(sector => {
+      return {
+        name: sector,
+        type: 'bar',
+        x: funds,
+        y: funds.map(fund => {
+          const key = fund + '||' + sector;
+          return fundSector[key] || 0;
+        })
+      };
+    });
+
+    Plotly.newPlot('sectorExposure', traces, {
+      barmode: 'stack',
+      title: 'NAV Exposure by Fund and Sector',
+      xaxis: { title: 'Fund' },
+      yaxis: { title: 'NAV ($)' }
+    });
+
+    // Heatmap: Fund vs Company NAV
+    const heatmapData = {};
+    const companies = [...new Set(data.map(d => d.Company))];
+    funds.forEach(f => heatmapData[f] = Array(companies.length).fill(0));
+    data.forEach(d => {
+      const i = companies.indexOf(d.Company);
+      heatmapData[d.Fund][i] += d.NAV;
+    });
+
+    Plotly.newPlot('companyHeatmap', [{
+      z: funds.map(f => heatmapData[f]),
+      x: companies,
+      y: funds,
+      type: 'heatmap',
+      colorscale: 'Blues'
+    }], {
+      title: 'NAV Exposure: Fund vs Company',
+      xaxis: { title: 'Company' },
+      yaxis: { title: 'Fund' }
+    });
+
+    // DataTable
+    $('#dataTable').DataTable({
+      data: data,
+      columns: [
+        { title: "Company", data: "Company" },
+        { title: "Fund", data: "Fund" },
+        { title: "Year", data: "Year" },
+        { title: "Committed", data: "Commited", render: $.fn.dataTable.render.number(',', '.', 0, '$') },
+        { title: "NAV", data: "NAV", render: $.fn.dataTable.render.number(',', '.', 0, '$') },
+        { title: "Sector", data: "Sector" }
+      ]
+    });
+  });
+</script>
+
+</body>
+</html>
