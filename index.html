@@ -83,14 +83,14 @@ fetch('portfolio_data.json')
       yaxis: { title: 'Fund' }
     });
 
-    // DataTable
+    // DataTable with corrected field names
     $('#dataTable').DataTable({
       data: data,
       columns: [
         { title: "Company", data: "Company" },
         { title: "Fund", data: "Fund" },
         { title: "Year", data: "Year" },
-        { title: "Committed", data: "Commited", render: $.fn.dataTable.render.number(',', '.', 0, '$') },
+        { title: "Committed", data: "Committed", render: $.fn.dataTable.render.number(',', '.', 0, '$') },
         { title: "NAV", data: "NAV", render: $.fn.dataTable.render.number(',', '.', 0, '$') },
         { title: "Sector", data: "Sector" }
       ]
